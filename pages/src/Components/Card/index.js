@@ -3,9 +3,8 @@ import propTypes from 'prop-types'
 
 const SimpleCard = ({title, text, img, link}) => {
     return (
-<a href={link}>  
-<Card style={{ width: '18rem', height: '350px', borderRadius: '15px', marginTop: '100px', display: 'inline-block', marginLeft: '25px', marginRight: '25px', boxShadow:
-            '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);' }}>
+<a href={link} className='card-hover'>  
+<Card className='simple-card'>
   <Card.Img variant="top" src={img} style={{borderRadius: '15px 15px 0 0', opacity: '0.5' }} />
   <Card.Body>
     <Card.Title> {title} </Card.Title>

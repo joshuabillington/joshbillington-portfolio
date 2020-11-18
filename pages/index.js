@@ -11,7 +11,6 @@ export default function Home() {
     <div className={styles.container} style={{backgroundColor: 'linear-gradient( rgba(238,238,238,1) 0%, rgba(255,255,255,1) 67%);'}}>
       <Head>
         <title> Josh Billington | Developer Portfolio </title>
-        <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -19,8 +18,6 @@ export default function Home() {
           crossorigin="anonymous"
         />
       </Head>
-
-
       <header style={{width: '100%', padding: '0px, 0px', margin: '0px'}}> 
         <Navigation /> 
       </header>
@@ -29,7 +26,7 @@ export default function Home() {
         <SocialSticky />
         <SocialStickyMobile />
         <Banner name='banner'/>
-        <About name='projects' /> 
+        <About/> 
       </main>
 
       <footer className={styles.footer}>
