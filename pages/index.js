@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={styles.container} style={{backgroundColor: 'linear-gradient( rgba(238,238,238,1) 0%, rgba(255,255,255,1) 67%);'}}>
       <Head>
-        <title>Create Next App</title>
+        <title> Josh Billington | Developer Portfolio </title>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
@@ -28,8 +28,8 @@ export default function Home() {
       <main className={styles.main}>
         <SocialSticky />
         <SocialStickyMobile />
-        <Banner />
-        <About /> 
+        <Banner name='banner'/>
+        <About name='projects' /> 
       </main>
 
       <footer className={styles.footer}>

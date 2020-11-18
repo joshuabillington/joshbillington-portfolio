@@ -11,9 +11,9 @@ return (
   <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{marginRight: '10vw'}} />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link> home </Nav.Link>
-      <Nav.Link> projects </Nav.Link>
-      <Nav.Link> contact </Nav.Link>
+      <Nav.Link href='/'> home </Nav.Link>
+      <Nav.Link href='#projects'> projects </Nav.Link>
+      <Nav.Link href='/'> contact </Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

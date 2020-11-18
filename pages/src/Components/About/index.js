@@ -9,7 +9,7 @@ const Projects = () => {
         <div> 
 
         <a href='https://www.regorealty.ca' target='blank' rel='noopener noreferrer'> 
-        <video className='video-desktop' src='https://res.cloudinary.com/ddd2lfnyh/video/upload/v1605292480/regorealty_project_ucdcso.mov' autoPlay width='1080px' loop style={{marginTop: '100px', borderRadius: '15px', boxShadow:
+        <video className='video-desktop' src='https://res.cloudinary.com/ddd2lfnyh/video/upload/v1605669690/regovid_x9wgcn.mov' autoPlay width='1080px' loop style={{marginTop: '100px', borderRadius: '15px', boxShadow:
             '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)'}} />  
         <video className='video-mobile' src='https://res.cloudinary.com/ddd2lfnyh/video/upload/v1605293136/regorealty-mobile_pvlxtt.mov' autoPlay width='375px' loop style={{marginTop: '50px', borderRadius: '15px', boxShadow:
             '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)'}} />  
